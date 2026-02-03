@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - AI Gen</title>
+    <title>Signup - AI Gen</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     </head>
 <body class="bg-gray-100 font-sans antialiased">
@@ -27,17 +27,25 @@
         <div class="bg-white p-8 shadow-md rounded-lg max-w-md w-full">
             <form class="space-y-4">
                 <h2 class="text-xl font-semibold text-green-700">
-                    Login Page - Welcome back to the AI Revolution!
+                    Signup Page - Join the AI Revolution!
                 </h2>
                 <div>
                     <label for="username" class="text-green-700 block mb-1 font-medium">Username</label>
                     <input type="text" id="username" name="username" placeholder="Username please..." class="w-full p-2 border rounded-l bg-gray-100">
                 </div>
                 <div>
+                    <label for="email" class="text-green-700 block mb-1 font-medium">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email please..." class="w-full p-2 border rounded-l bg-gray-100">
+                </div>
+                <div>
                     <label for="password" class="text-green-700 block mb-1 font-medium">Password</label>
                     <input type="password" id="password" name="password" placeholder="Enter your password..." class="w-full p-2 border rounded-l bg-gray-100">
                 </div>
-                <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-500">Login</button>
+                <div>
+                    <label for="repeatpassword" class="text-green-700 block mb-1 font-medium">Repeat password</label>
+                    <input type="password" id="repeatpassword" name="repeatpassword" placeholder="Repeat your password..." class="w-full p-2 border rounded-l bg-gray-100">
+                </div>
+                <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-500">Signup</button>
             </form>
         </div>
     </div>
